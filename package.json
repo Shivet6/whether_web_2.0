@@ -2,6 +2,7 @@
   "name": "weather-app",
   "private": true,
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "frontend": "npm --prefix Frontend run dev",
     "frontend:build": "npm --prefix Frontend run build",
