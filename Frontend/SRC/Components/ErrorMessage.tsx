@@ -1,0 +1,1 @@
+export default function ErrorMessage({message,onRetry}:{message:string;onRetry:()=>void}){return <div className="error-state"><div><p className="eyebrow">COULDN’T LOAD WEATHER</p><h2>{message}</h2><p>Check the place name or your connection, then try again.</p></div><button onClick={onRetry}>Try again</button></div>}
